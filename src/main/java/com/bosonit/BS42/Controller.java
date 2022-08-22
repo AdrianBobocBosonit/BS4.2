@@ -12,7 +12,7 @@ public class Controller {
     @Value("${My.VAR2}")
     private String var2;
 
-    @Value("${VAR3:var3 no tiene valor}")
+    @Value("${VAR3_SISTEMA:var3 no tiene valor}")
     private String var3;
 
     @GetMapping("/valores")
